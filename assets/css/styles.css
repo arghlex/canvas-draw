@@ -1,0 +1,35 @@
+@import url(../bower_components/normalize.css/normalize.css);
+
+body {
+  background: #596e7d;
+  color: #fff;
+  font-family: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+}
+.wrap {
+  width: 80%;
+  margin: 20px auto;
+}
+canvas {
+  background: #fff;
+}
+.option {
+  margin: 0 0 1em;
+  padding: 1em;
+  float:left;
+  width:50%;
+  box-sizing:border-box;
+}
+input, button {
+  color: #333;
+}
+.current-color {
+  line-height: 1.5em;
+}
+.indicator {
+  width: 1.5em;
+  height: 1.5em;
+  background: #333;
+  float: left;
+  margin: 0 0.5em 0 0;
+  border-radius: 100px;
+}

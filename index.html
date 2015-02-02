@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Canvas Draw - A canvas drawing application</title>
+
+  <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+</head>
+<body>
+
+  <div class="wrap">
+
+    <h1>Canvas Draw</h1>
+    
+    <div class="canvas-wrap">
+      <canvas id="canvas" width="300" height="300"></canvas>
+    </div>
+    
+    <div class="options">
+      
+      <div class="option option--color">
+        <h2>Pencil colour</h2>
+        <div class="color-choice">
+          <p><label>Red</label></p><p><input type="range" name="color-R" min="0" max="255" value="0"><span class="">0</span></p>
+          <p><label>Green</label></p><p><input type="range" name="color-G" min="0" max="255" value="0"><span class="">0</span></p>
+          <p><label>Blue</label></p><p><input type="range" name="color-B" min="0" max="255" value="0"><span class="">0</span></p>
+          <div class="current-color"><span class="indicator"></span>Current colour</div>
+        </div>
+      </div>
+   
+      <div class="option option--line-width">
+        <h2>Pencil Width</h2>
+        <div class="line-choice">
+          <p><label for="line-width-range">Line width</label></p>
+            <p><input type="range" class="line-width-range" min="1" max="40" value="1" name="line-width-range">
+            <span class="">1</span></p>
+        </div>
+      </div>
+      
+      <div class="option option--background">
+        <h2>Background colour</h2>
+        <div class="line-choice">
+          <p><label for="background-input">Colour (e.g. #fff, rgb(0,0,0))</label></p>
+          <p><input type="text" class="backround-input" name="background-input"><button class="btn btn--set-background">Use</button></p>
+        </div>
+      </div>
+    </div>
+  </div>
+<script type="text/javascript" src="assets/js/app.js"></script>
+</body>
+</html>
