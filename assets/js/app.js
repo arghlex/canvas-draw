@@ -120,7 +120,7 @@
     },
     
     updateSliderVal: function() {
-      var el = this.parentNode.querySelector('span');
+      var el = this.parentNode.querySelector('label');
       el.textContent = this.value;
     }
   }
